@@ -4,8 +4,6 @@ A visual observation game set around Sydney, built with Python and Tkinter.
 Each case shows one evidence photo and four suspects. Find the closest match,
 then see the program's own answer and the similarity score of every suspect.
 
-![Photo Detective gameplay](docs/screenshot.png)
-
 ## Requirements
 
 - Python 3.8 or later
