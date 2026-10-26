@@ -1,0 +1,362 @@
+[
+  {
+    "id": "koala",
+    "title": "Sleepy Koala",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "reference": "assets/references/koala.png",
+    "candidates": [
+      {
+        "path": "assets/matches/koala_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/references/tram.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/cafe.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/bondi.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      }
+    ]
+  },
+  {
+    "id": "tram",
+    "title": "George Street Light Rail",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "reference": "assets/references/tram.png",
+    "candidates": [
+      {
+        "path": "assets/matches/tram_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/references/dog.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/mountains.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/cafe.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      }
+    ]
+  },
+  {
+    "id": "mountains",
+    "title": "The Three Sisters",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 1,
+    "difficulty_label": "Easy",
+    "reference": "assets/references/mountains.png",
+    "candidates": [
+      {
+        "path": "assets/matches/mountains_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/references/cafe.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/tram.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/opera.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      }
+    ]
+  },
+  {
+    "id": "wallaby",
+    "title": "Wallaby in the Shade",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 2,
+    "difficulty_label": "Medium",
+    "reference": "assets/references/wallaby.png",
+    "candidates": [
+      {
+        "path": "assets/matches/wallaby_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/references/koala.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/dog.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/quad.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      }
+    ]
+  },
+  {
+    "id": "ferry",
+    "title": "Ferry at Circular Quay",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 2,
+    "difficulty_label": "Medium",
+    "reference": "assets/references/ferry.png",
+    "candidates": [
+      {
+        "path": "assets/matches/ferry_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/references/opera.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/cockatoo.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/tram.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      }
+    ]
+  },
+  {
+    "id": "quad",
+    "title": "The Quadrangle",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 2,
+    "difficulty_label": "Medium",
+    "reference": "assets/references/quad.png",
+    "candidates": [
+      {
+        "path": "assets/matches/quad_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/references/tram.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/opera.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      },
+      {
+        "path": "assets/references/cafe.png",
+        "kind": "distractor",
+        "change": "a different scene"
+      }
+    ]
+  },
+  {
+    "id": "opera",
+    "title": "Opera House at Dusk",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 3,
+    "difficulty_label": "Hard",
+    "reference": "assets/references/opera.png",
+    "candidates": [
+      {
+        "path": "assets/variants/opera_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/variants/opera_edit1.png",
+        "kind": "distractor",
+        "change": "mirrored left to right"
+      },
+      {
+        "path": "assets/variants/opera_edit2.png",
+        "kind": "distractor",
+        "change": "black and white"
+      },
+      {
+        "path": "assets/variants/opera_edit3.png",
+        "kind": "distractor",
+        "change": "cropped to a wider shape"
+      }
+    ]
+  },
+  {
+    "id": "bondi",
+    "title": "Bondi Icebergs",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 3,
+    "difficulty_label": "Hard",
+    "reference": "assets/references/bondi.png",
+    "candidates": [
+      {
+        "path": "assets/variants/bondi_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/variants/bondi_edit1.png",
+        "kind": "distractor",
+        "change": "mirrored left to right"
+      },
+      {
+        "path": "assets/variants/bondi_edit2.png",
+        "kind": "distractor",
+        "change": "black and white"
+      },
+      {
+        "path": "assets/variants/bondi_edit3.png",
+        "kind": "distractor",
+        "change": "cropped to a wider shape"
+      }
+    ]
+  },
+  {
+    "id": "cockatoo",
+    "title": "Cockatoo Lookout",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 4,
+    "difficulty_label": "Very Hard",
+    "reference": "assets/references/cockatoo.png",
+    "candidates": [
+      {
+        "path": "assets/variants/cockatoo_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/variants/cockatoo_edit1.png",
+        "kind": "distractor",
+        "change": "darker"
+      },
+      {
+        "path": "assets/variants/cockatoo_edit2.png",
+        "kind": "distractor",
+        "change": "much less colourful"
+      },
+      {
+        "path": "assets/variants/cockatoo_edit3.png",
+        "kind": "distractor",
+        "change": "slightly zoomed in"
+      }
+    ]
+  },
+  {
+    "id": "cafe",
+    "title": "Sydney Brunch",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 4,
+    "difficulty_label": "Very Hard",
+    "reference": "assets/references/cafe.png",
+    "candidates": [
+      {
+        "path": "assets/variants/cafe_match.png",
+        "kind": "closest match",
+        "change": "tiny tone change"
+      },
+      {
+        "path": "assets/variants/cafe_edit1.png",
+        "kind": "distractor",
+        "change": "darker"
+      },
+      {
+        "path": "assets/variants/cafe_edit2.png",
+        "kind": "distractor",
+        "change": "much less colourful"
+      },
+      {
+        "path": "assets/variants/cafe_edit3.png",
+        "kind": "distractor",
+        "change": "slightly zoomed in"
+      }
+    ]
+  },
+  {
+    "id": "dog",
+    "title": "The Flower Collar",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "reference": "assets/references/dog.png",
+    "candidates": [
+      {
+        "path": "assets/references/dog.png",
+        "kind": "closest match",
+        "change": "untouched copy"
+      },
+      {
+        "path": "assets/variants/dog_edit1.png",
+        "kind": "distractor",
+        "change": "flower turned blue"
+      },
+      {
+        "path": "assets/variants/dog_edit2.png",
+        "kind": "distractor",
+        "change": "bright leaves turned orange"
+      },
+      {
+        "path": "assets/variants/dog_edit3.png",
+        "kind": "distractor",
+        "change": "one fence board turned green"
+      }
+    ]
+  },
+  {
+    "id": "giraffe",
+    "title": "Lunch with a View",
+    "clue": "Which candidate is the closest match to the reference image?",
+    "difficulty": 5,
+    "difficulty_label": "Expert",
+    "reference": "assets/references/giraffe.png",
+    "candidates": [
+      {
+        "path": "assets/references/giraffe.png",
+        "kind": "closest match",
+        "change": "untouched copy"
+      },
+      {
+        "path": "assets/variants/giraffe_edit1.png",
+        "kind": "distractor",
+        "change": "basket turned green"
+      },
+      {
+        "path": "assets/variants/giraffe_edit2.png",
+        "kind": "distractor",
+        "change": "yellow flowers turned pink"
+      },
+      {
+        "path": "assets/variants/giraffe_edit3.png",
+        "kind": "distractor",
+        "change": "lamp post turned blue"
+      }
+    ]
+  }
+]

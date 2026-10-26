@@ -1,0 +1,21 @@
+{
+  "desk": "#18222C",
+  "desk_light": "#22303C",
+  "paper": "#F8F3E7",
+  "folder": "#EAD5A8",
+  "folder_dark": "#D2B47C",
+  "cork": "#B7854F",
+  "cork_dark": "#94683A",
+  "ink": "#1F2A33",
+  "ink_soft": "#6E6455",
+  "on_desk": "#F4EBDD",
+  "on_desk_soft": "#93A1AD",
+  "accent": "#E0533A",
+  "accent_dark": "#A93A27",
+  "amber": "#F2B544",
+  "amber_ink": "#B27413",
+  "success": "#2F9E6A",
+  "danger": "#D64545",
+  "window_width": 1280,
+  "window_height": 820
+}
