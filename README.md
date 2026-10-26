@@ -28,8 +28,8 @@ Use Python from python.org or Anaconda instead.
 ## How to Run
 
 ```bash
-git clone <this repository's URL>
-cd <repository folder>
+git clone https://github.com/hethan0721-lgtm/COMP9001-photo-detective.git
+cd COMP9001-photo-detective/Photo_Detective
 python3 main.py
 ```
 
